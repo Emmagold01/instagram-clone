@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+  --font-lobster: 'Lobster';
+  --font-roboto: 'roboto' sans-serif;
+
+  /* --color-primary: hsl(97, 10%, 35%, 1);
+  --color-secondary: hsl(97, 10%, 35%, 1);
+  --color-light: hsla(97, 6%, 57%, 1);
+  --color-test: hsla(96, 3%, 35%, 1);
+  --color-footer: hsla(0, 0%, 26%, 1); */
+  /* ... */
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
