@@ -75,7 +75,7 @@ export default function Navbar() {
         {/* top nav */}
         <div className="fixed top-0 left-0 right-0 w-full border-b border-neutral-500 bg-black z-50 ">
           <div className="flex justify-between items-center px-3 py-5">
-            <div className="font-lobster text-2xl">Instgram</div>
+            <div className="font-lobster text-2xl">Instagram</div>
             <div className="flex space-x-2 text-2xl">
               {mobLogo.map((mob, index) => (
                 <div key={index}>{mob.icon}</div>
